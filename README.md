@@ -5,6 +5,11 @@
 * https://qiita.com/kkk777/items/91a00e431d3e1d72d51e
 
 
+### Render.com
+* Pythonの実行バージョンを指定
+    * https://render.com/docs/python-version
+
+
 ### 対応策
 * https://qiita.com/kkk777/items/91a00e431d3e1d72d51e
 以下の対応をしなくても上記で良さそう。
