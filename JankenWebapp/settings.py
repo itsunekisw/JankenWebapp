@@ -126,3 +126,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # 動的ファイルを扱うための設定
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = 'media/'
+
+# 認証に利用するモデルの設定
+AUTH_USER_MODEL = 'janken.CustomUser'
