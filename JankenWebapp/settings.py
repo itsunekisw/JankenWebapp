@@ -129,3 +129,6 @@ MEDIA_URL = 'media/'
 
 # 認証に利用するモデルの設定
 AUTH_USER_MODEL = 'janken.CustomUser'
+
+# ログインURLの設定
+LOGIN_URL = '/janken/login/'
