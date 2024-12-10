@@ -14,7 +14,7 @@ services:
     branch: main
     healthCheckPath: /
     buildCommand: "./build.sh"
-    startCommand: "gunicorn JankenWebapp.wsgi --log-file -"
+    startCommand: "gunicorn JankenWebapp.wsgi:application"
     envVars:
       - key: PYTHON_VERSION
         value: 3.10.10
@@ -26,6 +26,4 @@ services:
         generateValue: true
       - key: WEB_CONCURRENCY
         value: 4
-
-
     autoDeploy: true
