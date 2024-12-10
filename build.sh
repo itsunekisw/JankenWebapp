@@ -3,7 +3,7 @@
 set -o errexit
 
 # Modify this line as needed for your package manager (pip, poetry, etc.)
-pip install --upgrade pip
+pip install wheel setuptoold pip --upgrade
 pip install -r requirements.txt
 
 # Convert static asset files
