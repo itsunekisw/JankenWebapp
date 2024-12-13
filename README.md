@@ -35,4 +35,4 @@ For typical apps this will give you the same result as running gunicorn. :) Good
 python manage.py runserver
 ```
 * アクセス先
-http://localhost:8000/janken/signup/
+http://localhost:8000/janken/signup/（旧）

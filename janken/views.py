@@ -6,9 +6,14 @@ from django.contrib.auth import login
 from django.contrib.auth import logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user_model
+from django.views.generic.base import TemplateView
 import random
 
 User = get_user_model()
+
+class TopView(TemplateView):
+    template_name = 'janken/top.html'
+
 
 def signup_view(request):
     if request.method == 'POST':

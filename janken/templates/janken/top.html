@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>トップページ</title>
+    <link rel="stylesheet" href="{% static 'css/janken.css' %}" >
+</head>
+<body class="container">
+    <p><a href="{% url 'login' %}">ログイン</a></p>
+    <p><a href="{% url 'signup' %}">ユーザー登録</a></p>
+</body>
