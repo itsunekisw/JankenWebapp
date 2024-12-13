@@ -145,7 +145,7 @@ LOGIN_URL = '/janken/login/'
 # Set up static file serving
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',    ...
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 # https://stackoverflow.com/questions/60365881/problem-with-an-elipsis-when-loading-the-django-server
