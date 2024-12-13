@@ -25,9 +25,6 @@ DEBUG = "RENDER" not in os.environ
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-68)lyby6k*qr9d9k&xz%d(=^#+uc+xo4sg#2w^zwhctm_0)u_!"
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
