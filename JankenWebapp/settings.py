@@ -163,3 +163,7 @@ AUTHENTICATION_BACKENDS = (
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend'
 )
+
+SUPERUSER_NAME = 'admini'
+SUPERUSER_EMAIL = 'admini@example.com'
+SUPERUSER_PASSWORD = 'Password'
